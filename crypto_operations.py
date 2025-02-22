@@ -7,7 +7,9 @@ from colors import *
 path = 'crypto.csv'
 
 def crypto_menu():
-    """This is the main-menu function for crypto that loops through the options"""
+    """
+    Displays the cryptocurrency menu and handles user interactions for managing BTC in the portfolio.
+    """
     while True:
 
         print(f"{primary_text}\n\n------Cryptocurrency Main Menu--------{constants.RESET}")
@@ -50,7 +52,9 @@ def crypto_menu():
             print(f"{error_text}\n\nYou have entered an invalid option, try again!{constants.RESET}")
 
 def add_crypto():
-    """This function adds/removes BTC in the crypto.csv file"""
+    """
+    Allows the user to add or remove BTC from their portfolio by modifying the 'crypto.csv' file.
+    """
     print(f"{primary_text}-------------------------------")
     print("Adding/Removing BTC to your portfolio!")
     print(f"If removing BTC, add a '-' minus sign to your amount!{constants.RESET}")
