@@ -1,4 +1,4 @@
-from color50 import rgb, constants, Color
+from color50 import rgb, constants, Color # type: ignore
 
 # Define color variables using RGB values for styling the console output
 primary_text = rgb(204, 229, 255) # Light blue for primary text

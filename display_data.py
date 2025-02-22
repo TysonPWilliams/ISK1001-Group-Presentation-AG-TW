@@ -2,8 +2,8 @@ from file_operations import *
 import financial_operations as fin_ops
 import csv
 import crypto_operations
-from tabulate import tabulate
-from color50 import rgb, constants
+from tabulate import tabulate # type: ignore
+from color50 import rgb, constants # type: ignore
 from colors import *
 
 def main_menu():
