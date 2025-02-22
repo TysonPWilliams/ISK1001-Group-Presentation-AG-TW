@@ -10,6 +10,11 @@ This is a personal finance application that helps you manage your income, expens
 - **Crypto Investment Tracking:** Track your Bitcoin (BTC) purchases and holdings.
 - **Real-time BTC Price Check:** View the current value of your BTC wallet based on CoinmarketCap API.
 
+## System Requirements
+- **Operating System:** Linux or macOS (Windows may require additional setup)
+- **Python Version:** Python 3.12 or higher
+- **Internet Connection:** Required for CoinMarketCap API calls
+
 ## Setting Up
 
 1. **Create a Virtual Environment:**
