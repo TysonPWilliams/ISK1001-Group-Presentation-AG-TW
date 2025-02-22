@@ -7,6 +7,12 @@ class FileOperations:
     
     This class provides methods to save financial transaction data (income and expenses)
     into separate CSV files, ensuring structured and organised data storage.
+
+    Methods:
+        __init__(): Initialises the FileOperations class with file paths for storing income and expense
+        save_data(): Saves income or expense data to the specified CSV files
+        save_income(): Saves income to the designated income CSV file
+        save_expense(): Saves expense data the the designated expense CSV file
     """
 
     def __init__(self, expense_path ='expense_data.csv', income_path='income_data.csv'):
