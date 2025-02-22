@@ -5,6 +5,14 @@ from color50 import constants
 from colors import *
 
 class Expense:
+    
+    """
+    Represents an individual expense, including its name, amount, category, and date of occurrence.
+
+    Methods:
+        add_expense(): Prompts the user for expense details and saves the expense to a CSV file.
+    """
+
     def __init__(self, name, amount, category, date):
         self.name = name
         self.amount = amount
@@ -12,6 +20,13 @@ class Expense:
         self.date = date
     
     def add_expense():
+        
+        """
+        Guides the user through the process of adding an expense, including selecting a category and entering the amount.
+
+        Validates user input to ensure correct data entry.
+        """
+
         print(f"{primary_text}\nGetting User Expense")
         print(f"--------------------{constants.RESET}")
     
@@ -68,6 +83,14 @@ class Expense:
             
 
 class Income:
+    
+    """
+    Represents an individual income, including its name, amount, category, and date of receipt.
+
+    Methods:
+        add_income(): Prompts the user for income details and saves the income to a CSV file.
+    """
+
     def __init__(self, name, amount, category, date):
         self.amount = amount
         self.category = category
@@ -75,6 +98,13 @@ class Income:
         self.date = date
 
     def add_income():
+
+        """
+        Guides the user through the process of adding income, including selecting a category and entering the amount.
+
+        Ensures that the user provides valid input for the income details.
+        """
+        
         print(f"{primary_text}\nGetting User Income")
         print(f"----------------------{constants.RESET}")
 

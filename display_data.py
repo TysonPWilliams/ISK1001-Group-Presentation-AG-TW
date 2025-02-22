@@ -9,7 +9,7 @@ from colors import *
 def main_menu():
     
     """
-    This is the primary main menu that you see on initial start up of the application
+    The main menu that users see upon starting the application. It provides options for managing income, expenses, and cryptocurrency.
     """
 
     print(f"{primary_text}\nWelcome to the Budget Manager!")
@@ -39,7 +39,10 @@ def main_menu():
 
 def display_csv_as_table(path):
     """
-    Reads a CSV file and displays it's content as a table
+    Reads data from a CSV file and displays it as a table using the 'tabulate' library.
+
+    Args:
+        path (str): Path to the CSV file to display.
     """
     with open(path, 'r') as file:
         reader = csv.reader(file)
@@ -50,7 +53,7 @@ def display_csv_as_table(path):
 
 def display_data():
     """
-    Displays the menu and options for viewing income/expenses
+    Provides the user with options to view income and expense data or perform summary calculations.
     """
 
     while True:
@@ -91,9 +94,17 @@ def display_data():
 
 
 def summarise_totals(path):
+    
     """
-    Summarises the total amounts of either income or expenses from the csv files
+    Calculates the total amount for either income or expenses by reading the specified CSV file.
+
+    Args:
+        path (str): Path to the CSV file (either 'income_data.csv' or 'expense_data.csv').
+
+    Returns:
+        float: The total amount calculated from the data in the CSV file.
     """
+
     total = 0.0
 
     with open(path, newline='') as file:
@@ -105,9 +116,14 @@ def summarise_totals(path):
     return total
 
 def max_category_spending():
+    
     """
-    Returns the category in which the most money was spent
+    Identifies the category in which the most money has been spent based on the expense data.
+
+    Returns:
+        tuple: The category with the highest spending and the total amount spent in that category.
     """
+
     category_totals = {}
     with open('expense_data.csv') as file:
         reader = csv.DictReader(file)

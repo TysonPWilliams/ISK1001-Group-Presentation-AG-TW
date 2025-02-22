@@ -6,7 +6,10 @@ from colors import *
 
 def get_btc_price():
     """
-    Fetches the current BTC price from CoinMarketCap API.
+    Fetches the current Bitcoin (BTC) price in AUD using the CoinMarketCap API.
+
+    Returns:
+        float: The current price of 1 BTC in AUD.
     """
 
     url = "https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest"
@@ -29,7 +32,17 @@ def get_btc_price():
         raise
 
 def read_csv_data(filename):
-    """Reads the CSV file and extracts the user's BTC holdings."""
+    
+    """
+    Reads the CSV file and calculates the total BTC holdings from the data.
+
+    Args:
+        filename (str): The path to the CSV file.
+
+    Returns:
+        float: The total BTC holdings from the CSV file.
+    """
+
     btc_holdings = 0.0
     with open(filename, 'r') as file:
         reader = csv.reader(file)
@@ -43,6 +56,17 @@ def read_csv_data(filename):
     return btc_holdings
 
 def calculate_aud_value(btc_price, btc_holdings):
-    """Calculates the total AUD value of the user's BTC holdings."""
+    
+    """
+    Calculates the total AUD value of the user's BTC holdings.
+
+    Args:
+        btc_price (float): The current price of 1 BTC in AUD.
+        btc_holdings (float): The total BTC holdings.
+
+    Returns:
+        float: The AUD value of the BTC holdings.
+    """
+    
     aud_value = btc_price * btc_holdings
     return aud_value
