@@ -1,0 +1,5 @@
+# Ignore the virtual Environment
+.venv/
+
+# Ignore the secret.py file that contains the API Key
+secret.py
