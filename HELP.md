@@ -45,7 +45,7 @@
 **Issue:** The application returns an error related to the API key.
 
 **Solution:**
-- Ensure you have correctly added your API key in `secret.py`:
+- Ensure you have correctly created a file called `secret.py` and then add your API key to it:
   ```python
   API_KEY = "YOUR_API_KEY"
   ```
@@ -56,7 +56,7 @@
 **Issue:** Running `python3 main.py` results in an error.
 
 **Solution:**
-- Ensure all dependencies are installed.
+- Ensure all dependencies are installed (solution above)
 - If you see `ModuleNotFoundError`, manually install the missing module:
   ```bash
   pip install module-name
