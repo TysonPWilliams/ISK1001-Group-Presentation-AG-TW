@@ -67,6 +67,29 @@ This is a personal finance application that helps you manage your income, expens
 
 The application will run you through adding income, expenses and BTC amounts.
 
+## File Structure Overview
+
+This is the file structure of the project:
+
+```bash
+/project_root
+├── .gitignore # Specifies files and directories that Git should ignore.
+├── btc_calculations.py # Contains functions and logic related to Bitcoin calculations.
+├── colors.py # Manages color-related settings for terminal outputs
+├── crypto_operations.py # Handles the operations related to cryptocurrency data
+├── crypto.csv # Stores cryptocurrency-related data
+├── display_data.py # Manages how data is displayed to the user
+├── expense_data.csv # Stores information on user expenses
+├── file_operations.py # Deals with reading and writing to files
+├── financial_operations.py # Contains financial logic and operations
+├── HELP.md # Contains the help and troubleshooting guide
+├── income_data.csv # Stores income data for the user
+├── main.py # The main script that runs the application
+├── README.md # The project’s documentation
+├── requirement.txt # Lists all the dependencies required for the project
+├── secret.py # Stores sensitive information like the API key
+```
+
 ## Third-Party Libraries and Licenses
 
 This project uses the following third-party libraries:
