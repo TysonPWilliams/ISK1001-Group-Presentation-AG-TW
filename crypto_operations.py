@@ -1,8 +1,8 @@
-import display_data
-import csv
-import btc_calculations as btc
-from datetime import datetime
-from colors import *
+import display_data # Description required
+import csv # Description required
+import btc_calculations as btc # Description required
+from datetime import datetime # Description required
+from colors import * # Description required
 
 path = 'crypto.csv'
 

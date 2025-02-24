@@ -1,8 +1,8 @@
-import requests
-from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
-import csv
-import secret
-from colors import *
+import requests # Description required
+from requests.exceptions import ConnectionError, Timeout, TooManyRedirects # Description required
+import csv # Description required
+import secret # Description required
+from colors import * # Description required
 
 def get_btc_price():
     """
@@ -13,7 +13,8 @@ def get_btc_price():
     """
 
     url = "https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest"
-    parameters = {
+    # Need description for parameters
+    parameters = { 
         "symbol": "BTC",
         "convert": "AUD"
     }

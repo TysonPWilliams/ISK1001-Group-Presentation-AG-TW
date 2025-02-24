@@ -1,8 +1,8 @@
-from datetime import datetime
-from display_data import summarise_totals
-import file_operations
-from color50 import constants # type: ignore
-from colors import *
+from datetime import datetime # Description required
+from display_data import summarise_totals # Description required
+import file_operations # Description required
+from color50 import constants # type: ignore # Description required
+from colors import * # Description required
 
 class Expense:
     

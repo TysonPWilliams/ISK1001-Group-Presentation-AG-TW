@@ -1,10 +1,10 @@
-from file_operations import *
-import financial_operations as fin_ops
-import csv
-import crypto_operations
-from tabulate import tabulate # type: ignore
-from color50 import rgb, constants # type: ignore
-from colors import *
+from file_operations import * # Description required
+import financial_operations as fin_ops # Description required
+import csv # Description required
+import crypto_operations # Description required
+from tabulate import tabulate # type: ignore # Description required
+from color50 import rgb, constants # type: ignore # Description required
+from colors import * # Description required
 
 def main_menu():
     

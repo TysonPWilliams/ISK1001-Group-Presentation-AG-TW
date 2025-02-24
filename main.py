@@ -1,7 +1,7 @@
-from file_operations import *
-from financial_operations import *
-from display_data import display_data, main_menu
-from color50 import Color
+from file_operations import * # Description required
+from financial_operations import * # Description required
+from display_data import display_data, main_menu # Description required
+from color50 import Color # Description required
 
 
 # Throughout this program's code you will see many f-strings that have {primary_text}
