@@ -1,7 +1,16 @@
+# Provides functions to work with date and time, used to timestamp income and expenses
 from datetime import datetime
+
+# Imports function to calculate total income and expenses from CSV files
 from display_data import summarise_totals
+
+# Handles file operations such as saving income and expense data
 import file_operations
-from color50 import constants # type: ignore
+
+# Imports predefined constants for styling terminal output
+from color50 import constants
+
+# Imports color variables for consistent console text formatting
 from colors import *
 
 class Expense:
