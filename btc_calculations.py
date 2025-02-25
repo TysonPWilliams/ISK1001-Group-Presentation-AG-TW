@@ -27,7 +27,7 @@ def get_btc_price():
         "convert": "AUD"    # Specifies the currency to convert the price into (Australian Dollars)
     }
     headers = {
-        "X-CMC_PRO_API_KEY": secret.API_KEY # Replace with your CoinMarketCap API key
+        "X-CMC_PRO_API_KEY": secret.API_KEY
     }
 
     try:
