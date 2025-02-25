@@ -1,6 +1,6 @@
 # Budget Manager with Bitcoin Tracking
 
-This is a personal finance application that helps you manage your income, expenses, and crypto investments.
+Budget Manager with Bitcoin Tracking is a personal finance application designed to help users manage their income, expenses, and cryptocurrency investments. It allows users to track spending, categorise expenses, and analyze financial data stored in CSV files. Additionally, it features real-time Bitcoin price tracking via the CoinMarketCap API, enabling users to monitor their BTC holdings alongside their overall budget.
 
 ## Features:
 
