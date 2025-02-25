@@ -1,12 +1,15 @@
+# Imports all functions related to file operations, such as saving and retrieving data
 from file_operations import *
+
+# Imports all financial related functions, including income and expense calculations 
 from financial_operations import *
+
+# Imports functions to display financial data and navigate the main menu
 from display_data import display_data, main_menu
+
+# Imports the Color class to apply color formatting to terminal text
 from color50 import Color
 
-
-# Throughout this program's code you will see many f-strings that have {primary_text}
-# and {secondary_text}, this is the color of the text in the command line. Within
-# colors.py you can find the color variables/objects that are used.
 while True:   
     main_menu()
     
