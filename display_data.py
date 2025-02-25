@@ -1,9 +1,22 @@
+# Imports all functions related to file handling (reading/writing data)
 from file_operations import *
+
+# Imports financial operations such as adding income and expenses
 import financial_operations as fin_ops
+
+# Provides functionality for reading and writing CSV files
 import csv
+
+# Imports functions for handling cryptocurrency related operations
 import crypto_operations
-from tabulate import tabulate # type: ignore
-from color50 import rgb, constants # type: ignore
+
+# Provides functionality to format and display tabular data in a structured manner
+from tabulate import tabulate 
+
+# Imports color utilities for styled console output
+from color50 import rgb, constants
+
+# Imports predefined color variables for consistent text styling
 from colors import *
 
 def main_menu():
