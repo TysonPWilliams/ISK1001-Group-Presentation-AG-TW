@@ -89,6 +89,7 @@ This is the file structure of the project:
 ├── requirement.txt # Lists all the dependencies required for the project
 ├── secret.py # Stores sensitive information like the API key
 ├── secret_sample.py # Is a sample file for the user to enter their API key
+├── USER_GUIDE.md # Contains a guide for how to navigate the menus
 ```
 
 ## Third-Party Libraries and Licenses
