@@ -1,3 +1,4 @@
+# Provides functionality for reading and writing CSV files
 import csv
 
 class FileOperations:

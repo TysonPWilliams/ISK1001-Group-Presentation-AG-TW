@@ -88,6 +88,8 @@ This is the file structure of the project:
 ├── README.md # The project’s documentation
 ├── requirement.txt # Lists all the dependencies required for the project
 ├── secret.py # Stores sensitive information like the API key
+├── secret_sample.py # Is a sample file for the user to enter their API key
+├── USER_GUIDE.md # Contains a guide for how to navigate the menus
 ```
 
 ## Third-Party Libraries and Licenses
@@ -108,20 +110,20 @@ These libraries are used under their respective open-source licenses.
 
 ## References
 
+- **CoinMarketCap.** (n.d.). Cryptocurrency Quotes Latest. [online] Available at: https://coinmarketcap.com/api/documentation/v1/#operation/getV2CryptocurrencyQuotesLatest [Accessed 12 Dec. 2024].
+
+- **Color50.** (n.d.). Color50 Documentation. [online] Available at: https://color50.readthedocs.io/en/latest/index.html [Accessed 19 Dec. 2024].
+
 - **DK.** (2020). Beginner's Step-by-Step Coding Course. Penguin Random House Australia.
 
 - **freeCodeCamp.org.** (2022). Python for Beginners - Full Course [Free and Complete]. [online] Available at: https://www.youtube.com/watch?v=f3GfkvfpVAE [Accessed 10 Dec. 2024].
-
-- **Tech With Tim.** (2019). Python Tutorial for Beginners - Full Course in 11 Hours [2023]. [online] Available at: https://www.youtube.com/watch?v=p71SWzjeqtk [Accessed 10 Dec. 2024].
-
-- **CoinMarketCap.** (n.d.). Cryptocurrency Quotes Latest. [online] Available at: https://coinmarketcap.com/api/documentation/v1/#operation/getV2CryptocurrencyQuotesLatest [Accessed 12 Dec. 2024].
 
 - **GeeksforGeeks.** (2023). How to Install Requests in Python for Windows, Linux, Mac? [online] Available at: https://www.geeksforgeeks.org/how-to-install-requests-in-python-for-windows-linux-mac/#google_vignette [Accessed 12 Dec. 2024].
 
 - **NetworkChuck.** (2021). Learn Python in 1 Hour - NEVER Give Up. [online] Available at: https://www.youtube.com/watch?v=q5uM4VKywbA [Accessed 12 Dec. 2024].
 
+- **Python.org.** (n.d.). csv — CSV File Reading and Writing. [online] Available at: https://docs.python.org/3/library/csv.html#module-contents [Accessed 15 Dec. 2024].
+
 - **Python.org.** (n.d.). venv — Creation of virtual environments. [online] Available at: https://docs.python.org/3/library/venv.html [Accessed 12 Dec. 2024].
 
-- **Color50.** (n.d.). Color50 Documentation. [online] Available at: https://color50.readthedocs.io/en/latest/index.html [Accessed 19 Dec. 2024].
-
-- **Python.org.** (n.d.). csv — CSV File Reading and Writing. [online] Available at: https://docs.python.org/3/library/csv.html#module-contents [Accessed 15 Dec. 2024].
+- **Tech With Tim.** (2019). Python Tutorial for Beginners - Full Course in 11 Hours [2023]. [online] Available at: https://www.youtube.com/watch?v=p71SWzjeqtk [Accessed 10 Dec. 2024].

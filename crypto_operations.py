@@ -1,7 +1,16 @@
+# Imports functions for displaying data in a structured format
 import display_data
+
+# Provides functionality for reading and writing to CSV files
 import csv
+
+#Imports BTC-related calculation funcitons (eg. fetching BTC price, calculating portfolio value)
 import btc_calculations as btc
+
+# Imports datetime module to handle and format date and time
 from datetime import datetime
+
+#Imports color definitions for styled console output
 from colors import *
 
 path = 'crypto.csv'

@@ -1,7 +1,16 @@
+# Importing the requests library to make HTTP requests to the CoinMarketCap API
 import requests
+
+# Importing specific excepttions from requests to handle errors like connection issues, timeouts and excessive redirects
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
+
+# Importing the csv module to read and write CSV files
 import csv
+
+# Importing the secret.py module we created, which contains sensitive information such as the API key
 import secret
+
+# Importing everything in the colors 3rd party module, which is used for changing the color of the CLI text.
 from colors import *
 
 def get_btc_price():
@@ -14,8 +23,8 @@ def get_btc_price():
 
     url = "https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest"
     parameters = {
-        "symbol": "BTC",
-        "convert": "AUD"
+        "symbol": "BTC",    # Specifies the cryptocurrency to retrieve data for (Bitcoin in this case)
+        "convert": "AUD"    # Specifies the currency to convert the price into (Australian Dollars)
     }
     headers = {
         "X-CMC_PRO_API_KEY": secret.API_KEY # Replace with your CoinMarketCap API key
